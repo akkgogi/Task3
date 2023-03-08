@@ -154,7 +154,7 @@ namespace Task3
             }
             catch (FormatException)
             {
-                MessageBox.Show("Введите сумму переводимой валюты!", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Введите сумму переводимой валюты. Используйте точку вместо запятой при вводе десятичной дроби.", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
